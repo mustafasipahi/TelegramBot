@@ -13,7 +13,8 @@ got to link: t.me/first_java_telegram_bot
 
 ---Create New Telegram Group---  
 add your bot: First Java Telegram Bot  
-add telegram bot: Get My ChatId (-9065*****)  
+add telegram bot: Get My ChatId  
+copy chat id: -9065*****  
 
 ---Add Field Application.yml---  
 token: 58284*****:AAHPC7eOARSaIYaO2QueXHBf2vAgA*****  
