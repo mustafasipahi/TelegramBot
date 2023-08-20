@@ -1,6 +1,6 @@
 # TelegramBot
 
----BotFather---/n
+---BotFather---
 /start
 /newbot
 user_name: First Java Telegram Bot
