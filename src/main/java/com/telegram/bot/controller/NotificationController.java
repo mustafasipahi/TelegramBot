@@ -15,8 +15,13 @@ public class NotificationController {
 
     private final NotificationService notificationService;
 
-    @PostMapping("/sent")
-    public void sendNotification(@RequestBody NotificationRequest request) {
-        notificationService.sendNotification(request);
+    @PostMapping("/send/telegram")
+    public void sendTelegramNotification(@RequestBody NotificationRequest request) {
+        notificationService.sendTelegramNotification(request);
+    }
+
+    @PostMapping("/sent/teams")
+    public void sendTeamsNotification(@RequestBody NotificationRequest request) {
+        notificationService.sendTeamsNotification(request);
     }
 }

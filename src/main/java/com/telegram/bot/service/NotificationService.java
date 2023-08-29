@@ -11,8 +11,13 @@ import org.springframework.stereotype.Service;
 public class NotificationService {
 
     private final TelegramReportingService telegramReportingService;
+    private final TeamsReportingService teamsReportingService;
 
-    public void sendNotification(NotificationRequest request) {
+    public void sendTelegramNotification(NotificationRequest request) {
         telegramReportingService.sendMessage(request.getMessage());
+    }
+
+    public void sendTeamsNotification(NotificationRequest request) {
+        teamsReportingService.sendMessage(request.getMessage());
     }
 }

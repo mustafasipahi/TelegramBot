@@ -3,3 +3,6 @@ telegram:
     token: 5828416673:AAHPC7eOARSaIYaO2QueXHBf2vAgAXeG0U8
     username: first_java_telegram_bot
     chatId: -906563192
+
+teams-service:
+  url: https://sanstechnology.webhook.office.com/webhookb2/a8d129de-0412-465f-a0c1-92b8d90d7694@d3511505-d156-4b60-b22a-331ec6926fd2/IncomingWebhook/f8688f6d4c1043e28411193154aa0826/a901b77d-c51a-4355-9f05-8e2d4284a04c
